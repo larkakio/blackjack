@@ -34,5 +34,6 @@ export const minikitConfig = {
     ogDescription: "Futuristic Blackjack with swipe controls",
     ogImageUrl: `${ROOT_URL}/hero-image.png`,
     screenshotUrls: [`${ROOT_URL}/hero-image.png`],
+    noindex: false,
   },
 } as const;

@@ -22,6 +22,7 @@
     "ogTitle": "Blackjack Neo Play on Base",
     "ogDescription": "Futuristic Blackjack with swipe controls and neon design",
     "ogImageUrl": "https://blackjack-chi-rust.vercel.app/hero-image.png",
-    "screenshotUrls": ["https://blackjack-chi-rust.vercel.app/hero-image.png"]
+    "screenshotUrls": ["https://blackjack-chi-rust.vercel.app/hero-image.png"],
+    "noindex": false
   }
 }
