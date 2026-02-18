@@ -63,6 +63,7 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.json",
   other: {
+    "base:app_id": "6995758d25337829d86a5406",
     "mobile-web-app-capable": "yes",
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "black-translucent",
