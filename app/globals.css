@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --space-dark: #0a0e1a;
+  --space-darker: #050810;
+  --neon-cyan: #00f3ff;
+  --neon-purple: #b537ff;
+  --neon-green: #39ff14;
+  --neon-red: #ff073a;
+  --neon-gold: #ffd700;
+  --font-orbitron: "Orbitron", system-ui, sans-serif;
+  --font-exo: "Exo 2", system-ui, sans-serif;
+  --font-rajdhani: "Rajdhani", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-space-dark text-white antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0);
+}
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 64px;
+    height: 96px;
+  }
+}
