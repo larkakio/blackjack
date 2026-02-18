@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000).
    ```bash
    vercel --prod
    ```
-   Set `NEXT_PUBLIC_APP_URL` to your production URL (e.g. `https://your-app.vercel.app`).
+   Set `NEXT_PUBLIC_APP_URL` to your production URL (e.g. `https://blackjack-chi-rust.vercel.app`).
 
 2. **Base**
    - Go to [base.dev](https://base.dev) → Create Mini App, add your app URL.

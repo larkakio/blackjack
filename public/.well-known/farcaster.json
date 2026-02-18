@@ -9,21 +9,21 @@
     "name": "Blackjack Neo",
     "subtitle": "Swipe to 21 on Base",
     "description": "Futuristic Blackjack game on Base. Swipe to hit, stand, double or split. Neon cyberpunk style, haptic feedback.",
-    "homeUrl": "https://blackjack-neo.vercel.app/",
-    "iconUrl": "https://blackjack-neo.vercel.app/icon.png",
-    "imageUrl": "https://blackjack-neo.vercel.app/hero-image.png",
-    "splashImageUrl": "https://blackjack-neo.vercel.app/hero-image.png",
+    "homeUrl": "https://blackjack-chi-rust.vercel.app/",
+    "iconUrl": "https://blackjack-chi-rust.vercel.app/icon.png",
+    "imageUrl": "https://blackjack-chi-rust.vercel.app/hero-image.png",
+    "splashImageUrl": "https://blackjack-chi-rust.vercel.app/hero-image.png",
     "splashBackgroundColor": "#0a0e1a",
-    "webhookUrl": "https://blackjack-neo.vercel.app/api/webhook",
+    "webhookUrl": "https://blackjack-chi-rust.vercel.app/api/webhook",
     "primaryCategory": "games",
     "tags": ["blackjack", "casino", "cards", "base", "crypto", "miniapp"],
-    "heroImageUrl": "https://blackjack-neo.vercel.app/hero-image.png",
+    "heroImageUrl": "https://blackjack-chi-rust.vercel.app/hero-image.png",
     "tagline": "Swipe to 21 on Base",
     "ogTitle": "Blackjack Neo | Play on Base",
     "ogDescription": "Futuristic Blackjack with swipe controls and neon design",
-    "ogImageUrl": "https://blackjack-neo.vercel.app/hero-image.png",
+    "ogImageUrl": "https://blackjack-chi-rust.vercel.app/hero-image.png",
     "screenshotUrls": [
-      "https://blackjack-neo.vercel.app/hero-image.png"
+      "https://blackjack-chi-rust.vercel.app/hero-image.png"
     ]
   }
 }

@@ -5,7 +5,7 @@
  */
 
 const ROOT_URL =
-  process.env.NEXT_PUBLIC_APP_URL || "https://blackjack-neo.vercel.app";
+  process.env.NEXT_PUBLIC_APP_URL || "https://blackjack-chi-rust.vercel.app";
 
 export const minikitConfig = {
   accountAssociation: {
