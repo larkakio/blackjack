@@ -17,21 +17,6 @@ const rajdhani = Rajdhani({
 const APP_URL =
   process.env.NEXT_PUBLIC_APP_URL || "https://blackjack-chi-rust.vercel.app";
 
-const FC_EMBED = {
-  version: "1",
-  imageUrl: `${APP_URL}/hero-image.png`,
-  button: {
-    title: "Play Blackjack",
-    action: {
-      type: "launch_frame",
-      name: "Blackjack Neo",
-      url: APP_URL,
-      splashImageUrl: `${APP_URL}/hero-image.png`,
-      splashBackgroundColor: "#0a0e1a",
-    },
-  },
-};
-
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
@@ -67,8 +52,6 @@ export const metadata: Metadata = {
     "mobile-web-app-capable": "yes",
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "black-translucent",
-    "fc:miniapp": JSON.stringify(FC_EMBED),
-    "fc:frame": JSON.stringify(FC_EMBED),
   },
 };
 
